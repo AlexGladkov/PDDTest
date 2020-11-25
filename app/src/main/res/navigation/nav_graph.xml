@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/launcherFragment">
+
+    <fragment
+        android:id="@+id/launcherFragment"
+        android:name="com.agladkov.pddtest.screens.launcher.LauncherFragment"
+        android:label="LauncherFragment" >
+        <action
+            android:id="@+id/action_launcherFragment_to_testsFragment"
+            app:destination="@id/testsFragment"
+            app:popUpTo="@id/launcherFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/testsFragment"
+        android:name="com.agladkov.pddtest.screens.test.TestsFragment"
+        android:label="TestsFragment" />
+</navigation>

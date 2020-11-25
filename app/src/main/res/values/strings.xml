@@ -1,3 +1,13 @@
 <resources>
+
     <string name="app_name">PDDTest</string>
+    <string name="app_title">ПДД Тесты</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_subtitle">Готовьтесь к экзамену в метро, автобусе и даже лежа на диване</string>
+    <string name="welcome_name_hint">Введите свое имя</string>
+
+    <!-- Actions -->
+    <string name="actions_next">Далее</string>
+
 </resources>
